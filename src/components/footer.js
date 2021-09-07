@@ -10,8 +10,9 @@ const Footer = () => {
         <SocialLinks />
 
         <FooterAttribution>
-          Hand-crafted with love by{' '}
-          <a href="https://twitter.com/yinkakun">Yinka Adedire</a>
+          Developer:
+          {" "}
+          <a href="https://www.linkedin.com/in/wajahat-dev/">Wajahat Ali</a>
         </FooterAttribution>
       </FooterWrapper>
     </StyledFooter>
@@ -27,7 +28,7 @@ const StyledFooter = styled.footer`
 
 const FooterAttribution = styled.p`
   font-size: var(--size-300);
-
+  color: inherit;
   & a {
     color: inherit;
   }

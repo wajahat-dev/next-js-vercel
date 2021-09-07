@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
+
 body,
 h1,
 h2,
@@ -28,6 +29,7 @@ ol[role='list'] {
 html:focus-within {
   scroll-behavior: smooth;
 }
+
 
 html {
   height: -webkit-fill-available;
@@ -91,6 +93,7 @@ body::-webkit-scrollbar-track {
 
 :root {
   scroll-behavior: smooth;
+  --header-bg-color: linear-gradient(72deg, #291e95, #cc007a);
   --size-300: 0.75rem;
   --size-400: 1rem;
   --size-500: 1.33rem;

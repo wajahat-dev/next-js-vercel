@@ -58,6 +58,8 @@ const HeaderNavListItem = ({ children }) => {
 
 const StyledHeader = styled.header`
   padding-top: var(--size-300);
+  background: var(--header-bg-color);
+  color: white
 `;
 
 const HeaderWrapper = styled(Container)`
@@ -72,12 +74,13 @@ const HeaderTitle = styled.div`
     text-decoration: none;
     font-size: var(--size-400);
     color: inherit;
+  
   }
 `;
 
 const StyledNav = styled.nav`
-  position: static;
-  padding: 0;
+  position: relative;
+  padding: 0px;
   background: transparent;
   backdrop-filter: unset;
 `;
@@ -92,7 +95,7 @@ const StyledNavList = styled.ul`
 `;
 
 const StyledNavListItem = styled.li`
-  &:not(:last-of-type) {
+&:not(:last-of-type) {
     margin-right: 2rem;
   }
   @media screen and (max-width: 700px) {
